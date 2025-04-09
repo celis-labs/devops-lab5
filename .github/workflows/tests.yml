@@ -1,8 +1,6 @@
 name: Test Python App
 
-on:
-  push:
-    branches: [ '*' ]
+on: [push, pull_request]
 
 jobs:
   ci:
